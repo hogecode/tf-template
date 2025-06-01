@@ -8,7 +8,7 @@ variable "cidr_block" {
 variable "availability_zones" {
   description = "List of availability zones"
   type        = list(string)
-  default     = ["us-west-2a", "us-west-2b"]  # デフォルト値
+  default     = ["ap-northeast-1a", "ap-northeast-1b"]  # デフォルト値
 }
 
 variable "vpc_name" {
